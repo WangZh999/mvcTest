@@ -1,0 +1,20 @@
+2021-09-13  22:31:14.535 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@566776ad
+2021-09-13  22:31:14.550 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-09-13  22:31:14.602 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\Project\java\springtest\target\classes\com\wangzh\PostProcessor.class]
+2021-09-13  22:31:14.604 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\Project\java\springtest\target\classes\com\wangzh\aop\AopA.class]
+2021-09-13  22:31:14.607 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\Project\java\springtest\target\classes\com\wangzh\bean\BeanA.class]
+2021-09-13  22:31:14.607 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\Project\java\springtest\target\classes\com\wangzh\bean\BeanB.class]
+2021-09-13  22:31:14.613 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [E:\Project\java\springtest\target\classes\com\wangzh\controller\ControllerA.class]
+2021-09-13  22:31:14.635 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-09-13  22:31:14.637 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-09-13  22:31:14.639 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-09-13  22:31:14.640 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-09-13  22:31:14.643 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2021-09-13  22:31:14.691 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'postProcessor'
+2021-09-13  22:31:14.707 [main] DEBUG org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void com.wangzh.aop.AopA.beforeTest()
+2021-09-13  22:31:14.783 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'appConfig'
+2021-09-13  22:31:14.784 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'aopA'
+2021-09-13  22:31:14.784 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'beanA'
+2021-09-13  22:31:14.794 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'beanB'
+2021-09-13  22:31:14.866 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'controllerA'
+2021-09-13  22:31:14.889 [main] INFO  com.wangzh.Main - main   class com.wangzh.bean.BeanA$$EnhancerBySpringCGLIB$$1c569e14
